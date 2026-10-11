@@ -1,0 +1,42 @@
+# Robot Game
+
+This project is a browser-based version of the robot collector game, rebuilt without Godot.
+
+Features:
+- 3D robot movement and camera
+- robot selection and color customization
+- weapon switching
+- enemies and combat
+- scrap pickup and upgrades
+- local progress saving in the browser
+- mobile-friendly touch controls
+
+## Run it locally
+
+Use a static web server in the project directory:
+
+npm install
+npm start
+
+Then open:
+
+http://localhost:8000
+
+## Controls
+
+Desktop:
+- W/A/S/D: move
+- Mouse: look around
+- Left click: fire
+- Right click: melee
+- Shift: sprint
+- 1 / 2: switch weapon
+- Space: jump
+
+Mobile:
+- joystick on the left
+- Fire and Melee buttons on the right
+
+## Notes
+
+This is a separate, non-Godot project intended to keep the original Godot repository untouched.
