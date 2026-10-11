@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Robot Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div class="panel top-left">
+        <div id="scrapLabel">Scrap: 0</div>
+        <div id="healthLabel">Health: 100/100</div>
+        <div id="robotLabel">Robot: Starter Bot</div>
+        <div id="infoLabel">Collect scrap and defeat enemies.</div>
+      </div>
+
+      <div class="panel bottom-left">
+        <div class="section-title">Robots</div>
+        <div id="robotButtons"></div>
+      </div>
+
+      <div class="panel bottom-right">
+        <div class="section-title">Colors</div>
+        <div id="colorButtons"></div>
+        <div class="section-title weapon-title">Weapons</div>
+        <div id="weaponButtons"></div>
+      </div>
+    </div>
+
+    <div id="touchControls">
+      <div id="joystickArea">
+        <div id="joystickKnob"></div>
+      </div>
+      <div id="actionButtons">
+        <button id="fireButton">Fire</button>
+        <button id="meleeButton">Melee</button>
+      </div>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
